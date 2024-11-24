@@ -1,0 +1,79 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.box-app {
+    width: 80vw;
+    min-height: 500px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    background-color: rgb(237, 244, 255);
+    text-align: center;
+}
+
+.img-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.input-password {
+    border-radius: 16px;
+    padding: 8px;
+    border-color: black;
+    border-style: solid;
+}
+
+.input-password:focus, .input-num{
+    outline: none;
+}
+
+.input-num {
+    border-radius: 16px;
+    padding: 8px;
+    border-color: black;
+    border-style: solid;
+}
+
+.btn-cifrar {
+    border-radius: 16px;
+    background-color: rgb(20, 97, 185);
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 90px;
+}
+
+.btn-cifrar:hover {
+    background-color: rgb(24, 117, 223);
+}
+
+.btn-cifrar:active, .btn-descifrar:active {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+}
+
+.btn-descifrar {
+    border-radius: 16px;
+    background-color: rgb(20, 97, 185);;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 90px;
+}
+
+.btn-descifrar:hover {
+    background-color: rgb(24, 117, 223);
+}
+
+@media (max-width: 600px) {
+    .box-app {
+        height: 70vh;
+    }
+}
+  

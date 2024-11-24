@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rcescon</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="assets/icon-j-c.webp">
+</head>
+<body>
+    <section class="main-section">
+        <div class="box-app">
+            <img class="img-logo" src="/assets/icon-j-c.webp">
+            <h1>Rcescon: Cifrador de Contraseña</h1>
+            
+            <label for="password">Introduce tu contraseña:</label>
+            <input class="input-password" type="text" id="password" placeholder="Contraseña original"><br><br>
+
+            <label for="shift">Introduce un número de desplazamiento:</label>
+            <input class="input-num" type="number" id="shift" value="3"><br><br>
+
+            <button class="btn-cifrar" onclick="encryptPassword()">Cifrar</button>
+            <button class="btn-descifrar" onclick="decryptPassword()">Descifrar</button><br><br>
+
+            <h3>Resultado:</h3>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
